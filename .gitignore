@@ -1,0 +1,30 @@
+# Build artifacts
+*.ko
+*.o
+*.mod.c
+*.cmd
+*.symvers
+*.order
+*.tmp
+*.cache.mk
+
+# Kernel build
+.tmp_versions/
+modules.order
+Module.symvers
+mkinitcpio.*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*~
+.vscode/
+.idea/
+
+# Dist (for AUR/etc)
+*.pkg.tar.*
+*.tar.gz
+*.tar.zst
